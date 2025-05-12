@@ -42,11 +42,11 @@
           "properties": {
             "cpu": {
               "title": "cpu",
-              "type": "integer"
+              "type": ["integer", "string"]
             },
             "memory": {
               "title": "memory",
-              "type": "integer"
+              "type": ["integer", "string"]
             }
           }
         },
@@ -56,11 +56,11 @@
           "properties": {
             "cpu": {
               "title": "cpu",
-              "type": "integer"
+              "type": ["integer", "string"]
             },
             "memory": {
               "title": "memory",
-              "type": "integer"
+              "type": ["integer", "string"]
             }
           }
         }
